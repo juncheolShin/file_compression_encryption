@@ -11,14 +11,18 @@ CMakePreset.json 파일에 configurePreset에
   "CMAKE_PREFIX_PATH": "C:/Qt/6.9.0/msvc2022_64" #Qt 설치 경로 , msvc 버전이어야함 !!
 },
 
-를 추가해준다면 실행이 될 것입니다.
+를 추가해주세요
 
 그리고 vcpkg.json 파일에 
 "dependencies": [
   "openssl"
 ],
-도 추가해주시면 실행이 될 것입니다.
+도 추가해주세요
 
 만약 안된다면, 오류메세지 그대로 gpt 물어보면 친절하게 답 해줍니다.
 
+이제 qt를 열고 file_compression_encryption\out\build\x64-debug\gui\Debug 주소로 이동해서
+windeployqt hufcrypt_gui.exe 명령어를 쳐줍니다._
+
+모든 과정이 정상적으로 진행되었다면 , 성공적으로 실행됩니다.
 감사합니다.
