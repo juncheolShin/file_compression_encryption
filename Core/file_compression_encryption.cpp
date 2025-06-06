@@ -3,6 +3,9 @@
 //   Compress + Encrypt   : ./hufcrypt enc <input_file> <output_file> <password>
 //   Decrypt + Decompress : ./hufcrypt dec <input_file> <output_file> <password>
 // ---------------------------------------------------------------
+// cmd 창에서 알고리즘이 작동하나 확인하기 위해 작성했던 파일입니다!
+// 프로그램 실행에는 아무런 영향을 미치지 않습니다. 사용되지도 않습니다!
+
 #include "file_compression_encryption.h"
 #define DBG(expr) do { std::cerr << "[DBG] " #expr " = " << (expr) << '\n'; } while(0)
 
