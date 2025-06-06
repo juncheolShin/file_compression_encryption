@@ -6,7 +6,7 @@ vcpkg 설치의 경우 다음 링크를 참고해주세요.
 https://velog.io/@copyrat90/getting-started-with-vcpkg
 
 그 뒤 VS에서 CMD를 열고
-'''
+'''bash
 vcpkg integrate install
 '''
 를 작성해주세요. OpenSSL이 자동으로 설치됩니다.
@@ -31,7 +31,7 @@ CMakePreset.json 파일에 configurePreset에
 깃허브 파일을 그대로 받으신다면, 딱히 위 내용을 수정할 일은 없을 것입니다만, 혹시 모르니 작성해둡니다.
 
 이제 qt를 열고 file_compression_encryption\out\build\x64-debug\gui\Debug 주소로 이동해서
-'''
+'''bash
 windeployqt hufcrypt_gui.exe 
 '''
 명령어를 쳐줍니다._
