@@ -1,0 +1,9 @@
+{
+  "name": "file-compress-encrypt",
+  "version-string": "0.1.0",
+  "dependencies": [
+    "openssl"
+  ],
+  "overrides": [],
+  "features": {}
+}
